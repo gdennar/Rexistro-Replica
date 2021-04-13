@@ -1,0 +1,259 @@
+body{
+    background-color: rgba(61, 104, 228, 0.08);
+}
+
+/* Navbar */
+.logo{
+    flex:50%;
+}
+.nav-bar{
+    margin-top: 25px;
+    display:flex;
+    justify-content: space-between;
+    
+}  
+
+.nav{
+   display: flex;
+   align-items: center;
+}
+
+.nav-item {
+    text-decoration: none;
+    color:#2F3366;
+    margin: 10px 20px;
+    font-size: 18px;
+}
+
+
+
+.nav-button{
+    margin: 10px 20px;
+    height: 30px;
+    width: 80px;
+    border-radius: 3px;
+    background: linear-gradient(94.13deg, #29ABE2 -3.53%, #299DE2 36.54%, #2950E2 99.05%);
+    color:#FFFFFF;
+    font-size: 14px;
+    border: none;
+}
+
+
+/* top-container */
+
+
+.top-container{
+    display: flex;
+    margin: 70px 100px;    
+}
+.first-info{
+    width:40%;
+    font-size: 30px;
+    color:#101335;
+}
+.sub-intro{
+    font-size: 16px;
+    color: #474747;
+}
+.first-dashboard{
+    width: 40%;
+   
+}
+.entry{
+    background: linear-gradient(94.13deg, #29ABE2 -3.53%, #29A2E2 27.46%, #2950E2 99.05%);
+    box-shadow: 0px 14px 32px rgba(113, 113, 113, 0.2);
+    border-radius: 2px;
+    color:#FFFFFF;
+    width:30%;
+    padding:10px;
+    border:none;
+}
+h6{
+    margin: 15px 15px 25px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #162750;
+}
+
+/* Balance container */
+.balance{
+    width:250px;
+    height: 150px;
+    background-color: #101335;
+    position: absolute;
+    right: 150px;
+    top:100px;
+    background: #fff;
+    border-radius: 5px;
+   
+}
+.balance-amount{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.0120588em;
+    color: #162750;
+    margin-left: 15px;
+    position: relative;
+    bottom: 20px;
+}
+
+.balance ul{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom:35px;
+    right:35px;
+    
+}
+
+.balance li{
+    list-style-type: none;
+    letter-spacing: -0.016em;
+    color: #162750;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 20px;     
+}
+.balance-date{
+    position: relative;
+    bottom: 40px;
+    margin-left:15px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #162750;
+    opacity: 0.67;
+}
+
+.balance-button{
+    width:13%;
+    position: relative;
+    bottom: 68px;
+    left: 200px;
+}
+/* Percentile Increament */
+.increment{
+    width:180px;
+    height: 220px;
+    background-color: yellow;
+    position: absolute;
+    right: 550px;
+    bottom: 120px;
+    background: #FFFFFF;
+    box-shadow: -6px 10px 32px rgba(0, 33, 75, 0.08);
+    border-radius: 5px;   
+}
+.increament-chart{
+    width:70%;
+    margin: 0 25px;
+}
+.increament-percent{
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 43px;
+    text-align: center;
+    color: #162750;
+    position: relative;
+    bottom:120px;
+}
+.percentile-text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #162750;
+    position: relative;
+    bottom:105px;
+}
+
+/* Your dashboard */
+
+
+.your-dashboard{
+    width:200px;
+    height: 200px;
+    background-color: pink;
+    position: absolute;
+    right: 250px;
+    bottom: 110px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+.bar-chart{
+    width: 80%;
+    margin:10px auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.bar-chart2{
+    position: relative;
+    bottom:70px;
+    width: 80%;
+    margin:10px auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.your-dashboard-info{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    font-size: 10px;
+    color:#162750;
+    font-weight: 600;
+    line-height: 12px;
+    position: relative;
+    bottom:60px;
+    margin: 10px auto;
+}
+
+.your-dashboard-info2{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    font-size: 10px;
+    color:#162750;
+    font-weight: 600;
+    line-height: 12px;
+    position: relative;
+    bottom:85px;
+    margin: 10px auto;
+}
+
+.number{
+    color:#29ABE2;
+}
+/* Consumer Dashboard */
+.consumer-dashboard{
+    width:350px;
+    height: 200px;
+    background-color: grey;
+    position: absolute;
+    top:200px;
+    right: 300px;
+    z-index: -1;
+    background: linear-gradient(112.67deg, rgba(41, 80, 226, 0.9) 0%, rgba(41, 171, 226, 0.9) 75.63%);
+    border-radius: 5px;
+}
+.consumer-chart{
+    width:70%;
+   position: relative;
+   left:70px;
+   bottom:65px;
+}
+.consumer-month{
+    position: relative;
+    right:220px;
+    bottom:10px;
+}
+.consumer-text{
+    font-size: 14px;
+    color: #FFFFFF;
+    margin:20px 15px 20px;
+}
