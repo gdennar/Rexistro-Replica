@@ -40,9 +40,7 @@ nav{
     
 }
 .nav-button{
-    margin: 10px 20px;
-    height: 30px;
-    width: 80px;
+    margin: 15px 20px;
     border-radius: 3px;
     background: linear-gradient(94.13deg, #29ABE2 -3.53%, #299DE2 36.54%, #2950E2 99.05%);
     color:#FFFFFF;
@@ -687,7 +685,7 @@ label::after{
 
 
  /* Media Query */
- @media (max-width:1068px), (min-width:900px){
+ @media (max-width:1068px){
 
    
     #home{
