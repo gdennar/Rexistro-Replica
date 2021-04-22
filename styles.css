@@ -973,7 +973,7 @@ label::after{
 
      .feedback-quote{
          position: relative;
-         left: 260px;
+         left: 80px;
          top:100px;
      }
 
@@ -984,7 +984,7 @@ label::after{
      }
 
      .control{
-         width:40px;
+         width:20px;
      }
 
      /* sign up */
