@@ -897,8 +897,9 @@ label::after{
     }
 
     .home-info{
-        width:100%;
+        width:60%;
         padding-top: 20px;
+        padding-bottom: 50px;
     }
 
     .home-intro{
