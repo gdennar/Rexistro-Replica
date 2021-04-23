@@ -852,7 +852,7 @@ label::after{
     .sign-btn{
         border: none;
         background: none;
-        color: #101335;
+        color: #2F3366;
         font-weight:bold;
         font-size: 14px;
         padding: 0;
@@ -881,6 +881,10 @@ label::after{
         margin: 7px 0;  
         display: block; 
     }
+     .nav-item:hover{
+         background-color: #2F3366;
+         width:50%;
+}
 
    
     
