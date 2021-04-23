@@ -853,6 +853,7 @@ label::after{
         border: none;
         background: none;
         color: #101335;
+        font-weight:bold;
         font-size: 14px;
         padding: 0;
         margin: 0;
@@ -877,7 +878,7 @@ label::after{
     .nav-item{
         width: 100%;
         text-align: center;
-        margin: 7px;  
+        margin: 7px 0;  
         display: block; 
     }
 
@@ -940,7 +941,7 @@ label::after{
         
     }
     .img-box{
-        transform: scale(0.5);
+        transform: scale(0.4);
         display: block;
         position: relative;
         right:120px;
@@ -974,6 +975,7 @@ label::after{
      }
 
      .feedback-quote{
+         transform:scale(0.6);
          position: relative;
          left: 80px;
          top:100px;
