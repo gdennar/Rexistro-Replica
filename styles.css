@@ -948,7 +948,7 @@ label::after{
         transform: scale(0.4);
         display: block;
         position: relative;
-        right:120px;
+        right:150px;
         bottom:100px;
     }
 
@@ -981,7 +981,7 @@ label::after{
      .feedback-quote{
          transform:scale(0.6);
          position: relative;
-         left: 80px;
+         left: 60px;
          top:100px;
      }
 
@@ -1053,9 +1053,9 @@ label::after{
      .social-icon{
         padding: 0;
         position: relative;
-        left:450px;
+        left:440px;
         bottom: 110px;
-        margin:10px;
+        margin:10px 0;
         cursor: pointer;
 
 
